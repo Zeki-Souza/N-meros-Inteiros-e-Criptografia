@@ -1,0 +1,23 @@
+/ Como gerar as chaves pública e privada? \
+
+1. Sorteie dois primos p, q grandes de tamanhos similares. (Por exemplo, sorteie dois primos de aproximadamente 1024 bits cada um.) Compute o produto n = pq.
+2. Compute φ(n) = φ(p)φ(q) = (p − 1)(q − 1).
+3. Sorteie um exponente e até que e satisfaça 2 < e < φ(n) e mdc(e, φ(n)) = 1.
+4. Publique sua chave pública (n, e). (Por exemplo, publique em sua homepage.)
+5. Usando e e φ(n), compute d tal que de ≡ 1 mod φ(n). O número d é sua chave privada  guarde-a em segredo. (Por razões didáticas, destrua p, q e φ(n).
+--> Tecnicamente, não precisamos mais deles, embora na prática p, q são úteis pra acelerar a descriptação, fazendo uso do Teorema Chinês do Resto <--
+
+/ Como encriptar uma mensagem m mod n para Alice? \
+
+Obtenha a chave pública (n, e) de Alice de forma segura. Seja m um inteiro representando a mensagem a ser encriptada, satisfazendo 0 ≤ m < n. Use o square-and- multiply pra computar c := me mod n.
+Assim, m é a mensagem e c é a encriptação de m. 
+Envie c a Alice.
+                                                                                                             
+/ Como Alice deve decriptar c mod n? \
+Alice usa o square-and-multiply pra computar (c^d) mod n = m.
+                                                                                                             
+/ Terminologia \ 
+                                                                                                             
+A mensagem encriptada c é chamada de ciphertext, que é termo técnico usado pra representar o texto cifrado. 
+A mensagem pura m é chamada de plaintext.                                                                                                             
+                                                                                                          
