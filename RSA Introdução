@@ -21,3 +21,5 @@ Alice usa o square-and-multiply pra computar (c^d) mod n = m.
 A mensagem encriptada c é chamada de ciphertext, que é termo técnico usado pra representar o texto cifrado. 
 A mensagem pura m é chamada de plaintext.                                                                                                             
                                                                                                           
+/ Coprimalidade \
+Os numeros X e Y serão Coprimos caso NÃO compartilhem fator comum e se seu MDC for igual a 1.
