@@ -1,7 +1,7 @@
 # Numeros-Inteiros-e-Criptografia
 Conteúdos e exercícios relacionados à disciplina "Números Inteiros e Criptografia" ministrada na UFRJ.
 ------------------------------------------------------------------------------------------------------------
-A disciplina "Números Inteiros e Criptografia" fora cursada por mim durante o período 2024.2 na UFRJ, sendo ministrada pelos professores D***** ********* Bastos e J*** ******* ***** ** Paixao.
+A disciplina "Números Inteiros e Criptografia" fora cursada por mim durante o período 2024.2 na UFRJ, sendo ministrada pelos professores "D***** ********* Bastos" e "J*** ******* ***** ** Paixao".
 
 SOBRE O CONTEUDO:
 Explicações e exposições de conteúdo sobre  o tema;
